@@ -10,104 +10,47 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "banner": {
       "type": "component",
       "repeatable": false,
       "component": "banner.banner",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
-    "value": {
+    "values": {
       "displayName": "value",
       "type": "component",
       "repeatable": true,
       "component": "home.value",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "aboutUs": {
-      "displayName": "aboutUs",
-      "type": "component",
-      "repeatable": false,
-      "component": "home.about-us",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "achievement": {
-      "type": "component",
-      "repeatable": false,
-      "component": "achievement.achievement",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "whyChooseUs": {
       "type": "component",
       "repeatable": false,
       "component": "why-choose-us.why-choose-us",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
-    "partners": {
+    "howItWork": {
+      "displayName": "howItWork",
       "type": "component",
       "repeatable": false,
-      "component": "home.partners",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {},
+      "component": "home.how-it-work"
     },
-    "blog": {
+    "cta": {
+      "displayName": "cta",
       "type": "component",
       "repeatable": false,
-      "component": "home.home-blog",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {},
+      "component": "home.cta"
     },
-    "valueHeader": {
-      "displayName": "valueHeader",
+    "screenshorts": {
+      "displayName": "screenshorts",
       "type": "component",
       "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.value-header"
-    },
-    "achievementHeader": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.value-header"
+      "pluginOptions": {},
+      "component": "home.screenshorts"
     }
   }
 }

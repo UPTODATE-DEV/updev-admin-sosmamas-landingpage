@@ -7,20 +7,8 @@
   },
   "options": {},
   "attributes": {
-    "subTitle": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "items": {
-      "displayName": "items",
-      "type": "component",
-      "repeatable": true,
-      "component": "why-choose-us.items"
     },
     "media": {
       "type": "media",
@@ -30,10 +18,10 @@
         "images"
       ]
     },
-    "button": {
+    "items": {
       "type": "component",
-      "repeatable": false,
-      "component": "global.cta"
+      "repeatable": true,
+      "component": "why-choose-us.items"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_how_it_works",
+  "info": {
+    "displayName": "howItWork",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.value"
+    }
+  }
+}

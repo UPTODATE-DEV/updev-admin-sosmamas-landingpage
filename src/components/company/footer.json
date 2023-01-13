@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_company_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navigation": {
+      "type": "string"
+    },
+    "links": {
+      "type": "string"
+    },
+    "download": {
+      "type": "string"
+    },
+    "downloadDescription": {
+      "type": "text"
+    }
+  }
+}
