@@ -18,6 +18,9 @@
         "images"
       ]
     },
+    "description": {
+      "type": "text"
+    },
     "items": {
       "type": "component",
       "repeatable": true,

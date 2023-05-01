@@ -9,6 +9,16 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
